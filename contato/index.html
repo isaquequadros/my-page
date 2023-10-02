@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript/app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/code.png">
+</head>
+<body>
+    <div class="content">
+        <div class="logo">
+            <img src="../images/code.png" alt="logo">
+        </div>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <a href="/sobre/index.html">Sobre mim</a>
+                    <a href="/projetos/index.html">Projetos</a>
+                    <a href="../index.html">Home</a>
+            </nav>
+        </header>
+        <div class="h1">
+            <h1 class="contato">Entre em contato</h1>
+        </div>
+
+        <div class="container">
+            <div class="box">
+
+                <section class="form">
+                    <form 
+                    action="https://formsubmit.co/ajax/contato.isaquequadros@gmail.com"
+                    method="POST"
+                    data-form
+                    >
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off" required />
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required />
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                        <button type="submit" data-button>Enviar</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+        <div class="push"></div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; isaquequadros - 2023</p>
+    </footer>
+</body>
+</html>
