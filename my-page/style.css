@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    top: 50px;
+    float: left;
+    left: 100px;
+    height: 90px;
+    position: absolute;
+}
+
+.menu{
+    top: 50px;
+    display: flex;
+    position: absolute;
+    float: right;
+    right: 90px;
+    display: inline;
+    list-style-type: none;
+}
+
+.menu a{
+    padding: 9px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+html, body {
+    height: 100vh;
+    background-color: #282433;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.me{
+    justify-items: center;
+    justify-content: center;
+    text-align: justify;
+    top: 400px;
+    left: 100px;
+    position: absolute;
+}
+
+.img{
+    display: flex;
+    height: 210px;
+    top: 700px;
+    position: absolute;
+    left: 100px;
+}
+
+.h12{
+    position: relative;
+    top: 700px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+.p1{
+    font-family: 'Caveat', cursive;
+    display: flex;
+    position: absolute;
+    top: 750px;
+    left: 380px;
+    text-align: justify;
+    margin: 5px;
+    margin-right: 300px;
+    font-size: 18px;
+}
+
+.sobre{
+    position: relative;
+    margin-top: 250px;
+}
+
+.move{
+    position: relative;
+    margin-top: 60px;
+}
+
+.h3{
+    position: absolute;
+    text-align: center;
+    top: 1000px;
+    left: 590px;
+}
+
+.contato{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 2340px;
+}
+
+.hab{
+    position: absolute;
+    top: 1100px;
+    height: 150px;
+    left: 400px;
+}
+
+.hab2{
+    position: absolute;
+    height: 150px;
+    top: 1100px;
+    left: 800px;
+}
+
+.p2{
+    position: absolute;
+    top: 1300px;
+    left: 450px;
+}
+
+.p3{
+    position: absolute;
+    top: 1300px;
+    left: 850px;
+}
+
+.space{
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+}
+
+button{
+    position: relative;
+    background-color: #FFF;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+button:hover{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.aa{
+    color: #000;
+}
+
+footer{
+    top: 3600px;
+    color: #FFF;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    line-height: 100px;
+}
+
+/* FORMULARIO ------------------------------------------------------------------------------------------- */
+
+.form{
+    position: absolute;
+    top: 2100px;
+    left: 420px;
+    margin-top: 600px;
+}
+
+section{
+    border-radius: 1.125rem;
+    top: 1000px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+    outline: none;
+    border-color: #7855C3;
+    box-shadow: #101026;
+}
+form textarea{
+    min-height: 12.5rem;
+    resize: vertical;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+    outline: none;
+    border-color: #7855C3;
+    box-shadow: #101026;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+input, textarea{
+    border-radius: 1.125rem;
+}
+
+/*Página do Obrigado*/
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: #101026;
+   flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 16px;
+}
+
+/* MEDIA --------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 540px) {
+    nav, header, .menu, .container, .sobre, .form, h1, p{
+        flex-wrap: wrap;
+    }
+    img{
+        position: absolute;
+        height: 50px;
+        right: 20px;
+        margin-top: -25px;
+    }
+
+    nav, .menu{
+        font-size: 14px;
+        margin-top: -10px;
+        float: right;        
+        width: 60%;
+        left: 90px;
+    }
+    .me{
+        position: absolute;
+        text-align: left;
+        float: left;
+        width: 70%;
+    }
+    .img{
+        height: 50px;
+        text-align: left;
+        position: absolute;
+    }
+    .h12{
+        margin-top: -10px;
+        left: 20px;
+        position: absolute;
+        text-align: center;
+    }
+    .p1{
+        left: 50px;
+        width: 70%;
+        text-align: justify;
+        font-size: 20px;
+        margin: 5px;
+        margin-right: 10px;
+    }
+    body{
+        font-family: Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+    }
+    .h3{
+        left: 90px;
+        text-align: justify;
+        width: 70%;
+    }
+    .space{
+        width: 50%;
+    }
+    .item1{
+        position: absolute;
+        left: -310px;
+        margin-top: 20px;
+    }
+    .item2{
+        position: absolute;
+        left: -700px;
+        margin-top: 390px;
+    }
+    .form{
+        width: 70%;
+        left: 50px;
+        font-size: 1rem;
+    }
+    footer{
+        margin-top: -250px;
+    }
+}
+
+@media (max-width: 480px){
+    nav, header, .menu, .container, .sobre, .form, h1, p{
+        flex-wrap: wrap;
+    }
+    img{
+        position: absolute;
+        height: 50px;
+        right: 20px;
+        margin-top: -25px;
+    }
+
+    nav, .menu{
+        font-size: 14px;
+        margin-top: -10px;
+        float: right;        
+        width: 60%;
+        left: 90px;
+    }
+    .me{
+        position: absolute;
+        text-align: left;
+        float: left;
+        width: 70%;
+    }
+    .img{
+        height: 50px;
+        text-align: left;
+        position: absolute;
+    }
+    .h12{
+        margin-top: -10px;
+        left: 20px;
+        position: absolute;
+        text-align: center;
+    }
+    .p1{
+        left: 50px;
+        width: 70%;
+        text-align: justify;
+        font-size: 20px;
+        margin: 5px;
+        margin-right: 10px;
+    }
+    body{
+        font-family: Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+    }
+    .h3{
+        left: 90px;
+        text-align: justify;
+        width: 70%;
+    }
+    .space{
+        width: 50%;
+    }
+    .item1{
+        position: absolute;
+        left: -310px;
+        margin-top: 20px;
+    }
+    .item2{
+        position: absolute;
+        left: -700px;
+        margin-top: 390px;
+    }
+    .form{
+        width: 70%;
+        left: 50px;
+        font-size: 1rem;
+    }
+    footer{
+        margin-top: -250px;
+    }
+}
+
+@media (max-width: 320px) {
+    nav, header, .menu, .container, .sobre, .form, h1, p{
+        flex-wrap: wrap;
+        max-width: 980px;
+    }
+    img{
+        position: absolute;
+        height: 50px;
+        right: 20px;
+        margin-top: -25px;
+        max-width: 980px;
+    }
+
+    nav, .menu{
+        font-size: 14px;
+        margin-top: -10px;
+        float: right;        
+        max-width: 980px;
+    }
+    .me{
+        position: absolute;
+        text-align: left;
+        float: left;
+        max-width: 980px;
+    }
+    .img{
+        height: 50px;
+        text-align: left;
+        position: absolute;
+    }
+    .h12{
+        margin-top: -10px;
+        left: 20px;
+        position: absolute;
+        text-align: center;
+        max-width: 980px;
+    }
+    .p1{
+        left: 50px;
+        width: 70%;
+        text-align: justify;
+        font-size: 20px;
+        margin: 5px;
+        margin-right: 10px;
+        max-width: 980px;
+    }
+    html, body{
+        font-family: Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+        max-width: 980px;
+    }
+    .h3{
+        left: 90px;
+        text-align: justify;
+        width: 70%;
+        max-width: 980px;
+    }
+    .item1{
+        position: absolute;
+        margin-top: 20px;
+        max-width: 980px;
+        width: 70%;
+        left: 50px;
+    }
+    .item2{
+        position: absolute;
+        margin-top: 390px;
+        max-width: 980px;
+        width: 70%;
+        left: 50px;
+    }
+    .form{
+        width: 70%;
+        left: 50px;
+        font-size: 1rem;
+        max-width: 980px;
+    }
+}
